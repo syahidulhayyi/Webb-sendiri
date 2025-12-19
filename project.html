@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<style>
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0); }
+  }
+  body { overflow-x: hidden; }
+</style>
+
+<body class="bg-white">
+
+  <header class="bg-white/80 backdrop-blur-xl w-full shadow-sm fixed z-50">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between py-3 px-6 md:px-10">
+      <div class="flex items-center gap-3">
+        <img src="img/logo.webp" class="w-[60px] md:w-[70px]" style="animation: float 3s ease-in-out infinite;">
+      </div>
+
+      <h1 class="text-xl font-bold text-black hidden md:block -translate-x-[350px]">
+        portfolio
+      </h1>
+      
+      <ul class="flex gap-5 font-normal text-gray-500 text-sm md:text-base">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="text-center pt-[150px] pb-10 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Projects Saya</h2>
+      <p class="text-gray-500 text-lg md:text-xl">
+        Kumpulan project yang telah saya kerjakan dengan penuh dedikasi dan passion
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 pb-20">
+    <h3 class="text-3xl font-medium mb-10 text-gray-800"># Bahasa arab.</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+      
+      <div class="w-full max-w-[350px] bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition">
+        <img src="img/BR.png" class="h-52 w-full object-cover" />
+        <div class="p-6 flex flex-col gap-4">
+          <h3 class="font-semibold text-lg text-end">بر الوالدين</h3>
+          <p class="text-sm text-gray-500 min-h-[80px]">Perjalanan gue memahami pentingnya berbakti kepada orang tua dalam kehidupan sehari-hari, lewat hal-hal sederhana yang perlahan gue coba terapin.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://youtu.be/6SdYDMRJ9IU?si=dSNUOx816A_xDS1V" class="flex-1">
+              <button class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl text-sm font-medium transition">View</button>
+            </a>
+            <button class="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-gray-50"><i class="fas fa-video"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-[350px] bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition">
+        <img src="img/MH.png" class="h-52 w-full object-cover" />
+        <div class="p-6 flex flex-col gap-4">
+          <h3 class="font-semibold text-lg text-end">محادثة اليومية</h3>
+          <p class="text-sm text-gray-500 min-h-[80px]">Latihan ngobrol bahasa Arab dalam keseharian, lewat percakapan singkat yang pelan-pelan gue pahami.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://youtu.be/0Gyb3dBnO9I?si=5PIe07gjaPhcczCM" class="flex-1">
+              <button class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl text-sm font-medium transition">View</button>
+            </a>
+            <button class="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-gray-50"><i class="fas fa-video"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-[350px] bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition">
+        <img src="img/SY.png" class="h-52 w-full object-cover" />
+        <div class="p-6 flex flex-col gap-4">
+          <h3 class="font-semibold text-lg text-end">شرح الحديث</h3>
+          <p class="text-sm text-gray-500 min-h-[80px]">Penjelasan gue memahami isi hadits dan pesan di dalamnya, lewat pembahasan pelan-pelan yang terus gue pelajari.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://youtu.be/NvCzE6r1R5E?si=T4YsbW0XrIhEex31" class="flex-1">
+              <button class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl text-sm font-medium transition">View</button>
+            </a>
+            <button class="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-gray-50"><i class="fas fa-video"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="text-3xl font-medium mt-24 mb-10 text-gray-800"># Information Technology</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+      <div class="w-full max-w-[350px] bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition">
+        <img src="img/ptlio.png" class="h-52 w-full object-cover" />
+        <div class="p-6 flex flex-col gap-4">
+          <h3 class="font-semibold text-lg">Portfolio</h3>
+          <p class="text-sm text-gray-500 min-h-[80px]">Kumpulan project yang gue kerjain selama proses belajar, mulai dari latihan kecil sampai project yang gue bikin buat ngasah skill.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://syahidulhayyi.github.io/TugasProfile/" class="flex-1">
+              <button class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl text-sm font-medium transition">View</button>
+            </a>
+            <button class="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-gray-50"><i class="fa-brands fa-github"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-[350px] bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition">
+        <img src="img/pyhn.jpeg" class="h-52 w-full object-cover" />
+        <div class="p-6 flex flex-col gap-4">
+          <h3 class="font-semibold text-lg">Python</h3>
+          <p class="text-sm text-gray-500 min-h-[80px]">Catatan dan latihan Python yang gue pelajari pelan-pelan, fokus ke dasar logika, sintaks, dan penerapan sederhana.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://github.com/syahidulhayyi/tugas-python" class="flex-1">
+              <button class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl text-sm font-medium transition">View</button>
+            </a>
+            <button class="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-gray-50"><i class="fa-brands fa-github"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-[350px] bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition">
+        <img src="img/slcng.png" class="h-52 w-full object-cover" />
+        <div class="p-6 flex flex-col gap-4">
+          <h3 class="font-semibold text-lg">Slicing</h3>
+          <p class="text-sm text-gray-500 min-h-[80px]">Latihan ngubah desain jadi tampilan website pakai HTML dan CSS, biar makin paham struktur layout yang rapi.</p>
+          <div class="flex items-center gap-3">
+            <button class="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl text-sm font-medium transition">View</button>
+            <button class="w-11 h-11 rounded-xl border flex items-center justify-center hover:bg-gray-50"><i class="fa-brands fa-github"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-20 px-6 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
+      <div class="flex flex-col text-center">
+        <span class="text-4xl font-bold text-blue-600">6 B+</span>
+        <p class="text-sm text-gray-600 mt-2">Belajar Konsisten</p>
+      </div>
+      <div class="flex flex-col text-center">
+        <span class="text-4xl font-bold text-blue-600">10+</span>
+        <p class="text-sm text-gray-600 mt-2">Project Latihan</p>
+      </div>
+      <div class="flex flex-col text-center">
+        <span class="text-4xl font-bold text-blue-600">SMA</span>
+        <p class="text-sm text-gray-600 mt-2">On Progress</p>
+      </div>
+      <div class="flex flex-col text-center">
+        <span class="text-4xl font-bold text-blue-600">100%</span>
+        <p class="text-sm text-gray-600 mt-2">Gas Terus</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="border-gray-300">
+<footer class="max-w-7xl mx-auto py-16 px-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div>
+        <p class="font-bold text-lg">Portfolio</p>
+        <p class="mt-2 text-gray-700">Membangun pengalaman digital yang bermakna dan berdampak.</p>
+      </div>
+
+      <div>
+        <p class="font-bold text-lg mb-4">Quick Links</p>
+        <ul class="text-sm text-gray-500 font-semibold space-y-2">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="font-bold text-lg mb-4">Connect</p>
+        <div class="flex gap-3">
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-blue-200 transition"><i class="fa-brands fa-github"></i></div>
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-blue-200 transition"><i class="fa-brands fa-linkedin"></i></div>
+          <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-blue-200 transition"><i class="fa-regular fa-envelope"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t mt-10 pt-6 text-center text-sm text-gray-500">
+      © 2025 Portfolio. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
